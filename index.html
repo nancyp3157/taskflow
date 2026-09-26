@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TaskFlow - a modern SaaS project management platform.">
+  <title>TaskFlow — Manage work. Move faster.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">New: AI task summaries are now available in TaskFlow ✨</div>
+
+  <header class="navbar">
+    <a class="logo" href="#home"><span class="logo-mark">T</span> TaskFlow</a>
+    <nav id="navMenu">
+      <a href="#features">Features</a>
+      <a href="#workflow">How it works</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="theme-btn" id="themeToggle" aria-label="Toggle theme">☾</button>
+      <button class="login-link" id="loginBtn">Log in</button>
+      <button class="btn btn-primary nav-cta" id="navCta">Get started</button>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <div class="pill">● Built for modern teams</div>
+        <h1>Manage work.<br><span>Move faster.</span></h1>
+        <p>TaskFlow brings projects, tasks, conversations, and deadlines into one beautifully simple workspace.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary btn-large" id="heroCta">Start for free <span>→</span></button>
+          <button class="btn btn-ghost btn-large" id="demoBtn"><span class="play">▶</span> Watch demo</button>
+        </div>
+        <div class="trust-row">
+          <span>✓ No credit card required</span>
+          <span>✓ 14-day Pro trial</span>
+          <span>✓ Cancel anytime</span>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="glow"></div>
+        <div class="dashboard-card">
+          <div class="dash-top">
+            <div class="mini-logo"><span>T</span> TaskFlow</div>
+            <div class="avatar">NV</div>
+          </div>
+          <div class="dash-body">
+            <aside class="dash-side">
+              <div class="side-active">▦ Overview</div>
+              <div>✓ My tasks</div>
+              <div>▤ Projects</div>
+              <div>◷ Calendar</div>
+              <div>⚙ Settings</div>
+            </aside>
+            <div class="dash-main">
+              <div class="dash-heading">
+                <div><small>Monday, September 28</small><h3>Good morning, Nenu 👋</h3></div>
+                <button class="small-add">+ Add task</button>
+              </div>
+              <div class="stats">
+                <div><small>Open tasks</small><strong>24</strong><em>+12%</em></div>
+                <div><small>Completed</small><strong>68</strong><em>+18%</em></div>
+                <div><small>On time</small><strong>94%</strong><em>+4%</em></div>
+              </div>
+              <div class="chart">
+                <div class="chart-head"><b>Productivity</b><span>Last 7 days ▾</span></div>
+                <div class="bars">
+                  <i style="height:38%"></i><i style="height:58%"></i><i style="height:48%"></i>
+                  <i style="height:72%"></i><i style="height:64%"></i><i style="height:86%"></i><i style="height:96%"></i>
+                </div>
+                <div class="days"><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="logos section-small">
+      <p>Trusted by teams at</p>
+      <div class="logo-row"><b>vertex</b><b>northstar</b><b>orbit</b><b>ACME</b><b>zenith</b></div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-heading">
+        <div class="eyebrow">POWERFUL FEATURES</div>
+        <h2>Everything your team needs<br><span>to get things done.</span></h2>
+        <p>Simple enough to start today. Powerful enough to grow with your team.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card featured"><div class="icon">✓</div><h3>Smart task management</h3><p>Create, assign, prioritize, and track tasks without losing sight of the big picture.</p><a href="#dashboard">Explore tasks →</a></article>
+        <article class="feature-card"><div class="icon">▤</div><h3>Projects that stay organized</h3><p>Keep timelines, files, milestones, and team conversations together.</p><a href="#dashboard">Explore projects →</a></article>
+        <article class="feature-card"><div class="icon">◎</div><h3>Insights & analytics</h3><p>Understand team progress with clear reports and actionable productivity insights.</p><a href="#dashboard">View analytics →</a></article>
+        <article class="feature-card"><div class="icon">⚡</div><h3>Automations</h3><p>Automate repetitive workflows so your team can focus on meaningful work.</p><a href="#workflow">See automations →</a></article>
+        <article class="feature-card"><div class="icon">◉</div><h3>Team collaboration</h3><p>Comments, mentions, notifications, and shared workspaces keep everyone aligned.</p><a href="#workflow">Collaborate →</a></article>
+        <article class="feature-card"><div class="icon">🔒</div><h3>Secure by default</h3><p>Role-based access, encrypted data, and reliable backups protect your workspace.</p><a href="#faq">Security details →</a></article>
+      </div>
+    </section>
+
+    <section class="section workflow-section" id="workflow">
+      <div class="section-heading">
+        <div class="eyebrow">HOW IT WORKS</div>
+        <h2>From idea to done<br><span>in three simple steps.</span></h2>
+      </div>
+      <div class="steps">
+        <div class="step"><span>01</span><div><h3>Create your workspace</h3><p>Invite your team and organize your work into projects that make sense for you.</p></div></div>
+        <div class="step"><span>02</span><div><h3>Plan and assign</h3><p>Break projects into tasks, set deadlines, and make ownership crystal clear.</p></div></div>
+        <div class="step"><span>03</span><div><h3>Track and deliver</h3><p>See progress in real time, automate updates, and ship work confidently.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section dashboard-section" id="dashboard">
+      <div class="dashboard-copy">
+        <div class="eyebrow">YOUR WORK, AT A GLANCE</div>
+        <h2>A dashboard that tells you what matters.</h2>
+        <p>Stop jumping between tools. TaskFlow gives every project a clear home and every teammate a clear next step.</p>
+        <ul>
+          <li><b>Real-time progress</b><span>Know exactly what is on track and what needs attention.</span></li>
+          <li><b>Custom views</b><span>Switch between list, board, calendar, and timeline views.</span></li>
+          <li><b>Team visibility</b><span>Keep stakeholders informed without endless status meetings.</span></li>
+        </ul>
+        <button class="btn btn-primary" id="dashboardCta">Try the dashboard →</button>
+      </div>
+      <div class="kanban">
+        <div class="kanban-head"><b>Website redesign</b><span>•••</span></div>
+        <div class="kanban-columns">
+          <div><small>TO DO · 3</small><div class="task">Finalize wireframes <em>Design</em></div><div class="task">Write homepage copy <em>Content</em></div><div class="task">Mobile QA checklist <em>QA</em></div></div>
+          <div><small>IN PROGRESS · 2</small><div class="task">Build landing page <em>Dev</em></div><div class="task">Create illustrations <em>Design</em></div></div>
+          <div><small>DONE · 4</small><div class="task done">Project brief <em>Done</em></div><div class="task done">Brand direction <em>Done</em></div><div class="task done">User research <em>Done</em></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section pricing-section" id="pricing">
+      <div class="section-heading">
+        <div class="eyebrow">SIMPLE PRICING</div>
+        <h2>Start free. Scale when<br><span>your team does.</span></h2>
+        <p>Choose the plan that fits your workflow. Upgrade or cancel anytime.</p>
+      </div>
+      <div class="pricing-grid">
+        <article class="price-card"><h3>Starter</h3><p>For individuals and small teams.</p><div class="price">$0 <small>/ month</small></div><button class="btn btn-outline plan-btn">Start free</button><ul><li>Up to 5 users</li><li>Unlimited tasks</li><li>3 projects</li><li>Basic analytics</li></ul></article>
+        <article class="price-card popular"><div class="popular-tag">MOST POPULAR</div><h3>Pro</h3><p>For growing teams that need more.</p><div class="price">$12 <small>/ user / month</small></div><button class="btn btn-primary plan-btn">Start 14-day trial</button><ul><li>Unlimited users</li><li>Unlimited projects</li><li>Advanced analytics</li><li>Automations</li></ul></article>
+        <article class="price-card"><h3>Business</h3><p>For organizations with complex needs.</p><div class="price">$29 <small>/ user / month</small></div><button class="btn btn-outline plan-btn">Contact sales</button><ul><li>Everything in Pro</li><li>Advanced permissions</li><li>Priority support</li><li>Custom reporting</li></ul></article>
+      </div>
+    </section>
+
+    <section class="section testimonial-section">
+      <div class="quote-mark">“</div>
+      <blockquote>TaskFlow replaced three separate tools for our team. Everyone knows what they need to do, and our weekly planning meetings are half as long.</blockquote>
+      <div class="person"><div class="person-avatar">AR</div><div><b>Aarav Rao</b><span>Head of Product, Northstar</span></div></div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="section-heading"><div class="eyebrow">FAQ</div><h2>Questions?<br><span>We have answers.</span></h2></div>
+      <div class="faq-list">
+        <button class="faq-item"><span>Can I try TaskFlow for free?</span><b>+</b><div class="answer">Yes. The Pro plan includes a 14-day free trial, and the Starter plan is free to use.</div></button>
+        <button class="faq-item"><span>Can I cancel anytime?</span><b>+</b><div class="answer">Yes. There are no long-term contracts. You can change or cancel your plan whenever you need.</div></button>
+        <button class="faq-item"><span>Does TaskFlow work for remote teams?</span><b>+</b><div class="answer">Absolutely. Shared projects, comments, notifications, and real-time progress are designed for distributed teams.</div></button>
+        <button class="faq-item"><span>Is my data secure?</span><b>+</b><div class="answer">This demo represents a SaaS front end. A production deployment should add authentication, encrypted storage, backups, access controls, and monitoring.</div></button>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div><div class="eyebrow">READY TO GET STARTED?</div><h2>Make work feel<br>simple again.</h2><p>Join thousands of teams using TaskFlow to turn plans into progress.</p></div>
+      <button class="btn btn-light btn-large" id="bottomCta">Start for free →</button>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-main">
+      <div><a class="logo" href="#home"><span class="logo-mark">T</span> TaskFlow</a><p>Simple project management for modern teams.</p></div>
+      <div><b>Product</b><a href="#features">Features</a><a href="#pricing">Pricing</a><a href="#dashboard">Dashboard</a></div>
+      <div><b>Company</b><a href="#workflow">About</a><a href="#faq">FAQ</a><a href="#home">Contact</a></div>
+      <div><b>Resources</b><a href="#faq">Help center</a><a href="#workflow">Guides</a><a href="#home">API</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 TaskFlow. Demo SaaS website.</span><span>Privacy · Terms · Security</span></div>
+  </footer>
+
+  <div class="modal" id="loginModal" aria-hidden="true">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose">×</button>
+      <div class="modal-icon">T</div><h2>Welcome back</h2><p>Log in to your TaskFlow workspace.</p>
+      <form id="loginForm">
+        <label>Email<input type="email" required placeholder="you@example.com"></label>
+        <label>Password<input type="password" required placeholder="••••••••"></label>
+        <button class="btn btn-primary full" type="submit">Log in</button>
+      </form>
+      <small id="formMessage"></small>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">Welcome to TaskFlow!</div>
+  <script src="script.js"></script>
+</body>
+</html>
